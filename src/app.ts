@@ -45,6 +45,7 @@ app.use(
   "/api-docs",
   swaggerUi.serve,
   swaggerUi.setup(swaggerSpec, {
+    customSiteTitle: "Finance Backend API",
     customCss:
       ".swagger-ui .models { display: none !important; } .swagger-ui .topbar { display: none !important; }",
   }),
